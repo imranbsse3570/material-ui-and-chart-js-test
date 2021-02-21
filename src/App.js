@@ -1,7 +1,14 @@
 import "./App.css";
+import Paper from "./components/Paper";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <div>
+      <Navbar />
+      <Paper></Paper>
+    </div>
+  );
 }
 
 export default App;
