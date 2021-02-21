@@ -2,6 +2,8 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import FormDetails from "./FormDetails";
+import BarChart from "./charts/BarChart";
+import LineChart from "./charts/LineChart";
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -21,6 +23,8 @@ export default function SimplePaper() {
       <Paper className={classes.paper} elevation={3}>
         <FormDetails />
       </Paper>
+      <BarChart />
+      <LineChart />
     </div>
   );
 }
